@@ -1,8 +1,8 @@
 class Difftance < Formula
   desc "A diff tool to show edit distance"
   homepage "https://github.com/fabon-f/difftance"
-  url "https://github.com/fabon-f/difftance/archive/refs/tags/v0.3.0.tar.gz"
-  sha256 "c4080b73c1ff5dc86fea0fa965391af2a65eb8984671c6eced95c88c36aa1b87"
+  url "https://github.com/fabon-f/difftance/archive/refs/tags/v0.3.1.tar.gz"
+  sha256 "fdd264396290dd923e49334cab4f791bae7bd1c7bddd2d434ba70425af6d6515"
   license "MIT"
 
   depends_on "crystal"
