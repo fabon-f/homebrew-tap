@@ -5,7 +5,7 @@ class Difftance < Formula
   sha256 "fdd264396290dd923e49334cab4f791bae7bd1c7bddd2d434ba70425af6d6515"
   license "MIT"
 
-  depends_on "crystal"
+  depends_on "crystal" => [:build, :test]
 
   def install
     system "make", "install", "PREFIX=#{prefix}"
